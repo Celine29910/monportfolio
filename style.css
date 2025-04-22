@@ -1,0 +1,122 @@
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #005f73;
+    color: white;
+}
+
+/* Header */
+header {
+    background: linear-gradient(90deg, #005f73, #0a9396);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Sections */
+section {
+    padding: 40px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#profil {
+    background-image: url('images/tech-background.jpg');
+    background-size: 100% auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.7);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    min-height: 400px;
+}
+
+.profil-content {
+    max-width: 60%;
+    background: rgba(0, 95, 115, 0.7);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1, h2, h3 {
+    color: white;
+}
+
+/* Images */
+.profil-photo, .image-parcours, .image-experiences {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 8px;
+}
+
+.image-experiences {
+    max-width: 50%;
+    display: block;
+    margin: 10px auto;
+    border-radius: 8px;
+}
+
+/* Liste */
+ul {
+    padding-left: 20px;
+}
+
+/* Bouton CV */
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgba(46, 125, 50, 0.8);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: rgba(27, 94, 32, 0.8);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: rgba(46, 125, 50, 0.8);
+    color: white;
+    margin-top: 20px;
+}
+
+.logos {
+    margin-top: 10px;
+}
+
+.logo {
+    height: 40px;
+    margin: 0 10px;
+}
